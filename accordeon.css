@@ -1,5 +1,6 @@
-.accordeon {
+li {
     list-style: none;
+    width: 400px;
 }
 img {
     height: 400px;
