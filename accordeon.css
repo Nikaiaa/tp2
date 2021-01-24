@@ -5,10 +5,11 @@ li {
     display: inline-block;
     transition: ease-in-out 2s;
     background-color: antiquewhite;
+    vertical-align: top;
 }
 img {
-    height: 400px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
 }
 ul {
     list-style: none;
