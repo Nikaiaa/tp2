@@ -5,3 +5,7 @@ img {
     height: 400px;
     width: 600px;
 }
+
+h3,p {
+    overflow: hidden;
+}
