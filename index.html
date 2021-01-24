@@ -35,13 +35,13 @@
     (function () {
         "use strict"
         const classeli = document.querySelectorAll("li");
-        function clickli() {
+        function clickli () {
             console.log('clique sur:', this)
             this.classList.toggle('ouvert')
         }
     for (let i = 0; 1< classeli.length; ++) {
         const li =classeli[i];
-        li.addEventListener('click','clickli')
+        li.addEventListener('click',clickli)
     }
     }())
 </script>
